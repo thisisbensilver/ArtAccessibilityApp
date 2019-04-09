@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/painting_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            tools:src="@drawable/untitled_modern_basquiat" />
+
+        <TextView
+            android:id="@+id/painting_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/painting_photo"
+            android:textSize="15sp"
+            tools:text="Untitled" />
+
+        <TextView
+            android:id="@+id/painting_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/painting_name"
+            android:text=" by "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/painting_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/painting_by"
+            android:textSize="15sp"
+            tools:text="Jean-Michel Basquiat" />
+
+        <TextView
+            android:id="@+id/painting_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/painting_location"
+            android:layout_toRightOf="@+id/painting_photo"
+            android:textSize="10sp"
+            tools:text="2019" />
+
+        <TextView
+            android:id="@+id/era_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/painting_date"
+            android:layout_toRightOf="@id/painting_photo"
+            android:text="Era: "
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/painting_era"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/painting_date"
+            android:layout_toRightOf="@+id/era_text"
+            android:textSize="10sp"
+            tools:text="Modern" />
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/painting_era"
+            android:layout_toRightOf="@+id/painting_photo"
+            android:text="About: "
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/painting_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/painting_era"
+            android:layout_toRightOf="@+id/about_text"
+            android:textSize="10sp"
+            tools:text="This is an interesting painting" />
+
+        <TextView
+            android:id="@+id/painting_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/painting_name"
+            android:layout_toRightOf="@+id/painting_photo"
+            android:textSize="10sp"
+            tools:text="Museum of Modern Art" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

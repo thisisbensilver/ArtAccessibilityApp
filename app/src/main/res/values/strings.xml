@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Art Accessibility App</string>
+    <string name="sort_by_artist">Artists</string>
+    <string name="sort_by_location">Locations</string>
+    <string name="sort_by_theme">Themes</string>
+    <string name="sort_by_era">Eras</string>
+</resources>

@@ -22,6 +22,15 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/untitled_modern_basquiat" />
 
+
     </android.support.constraint.ConstraintLayout>
 
+    <TextView
+        android:id="@+id/icon_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="24dp"
+        android:text="FILL ME IN"
+        android:visibility="gone" />
 </android.support.v7.widget.CardView>

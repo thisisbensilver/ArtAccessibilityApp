@@ -23,7 +23,7 @@ public class ListActivity extends AppCompatActivity {
         TextView getInputText = findViewById(R.id.menu_artists);
         String menuText = getInputText.getText().toString();
         Intent intent = new Intent(this, PaintingRecyclerView.class);
-        intent.putExtra(Keys.SORTING_KEY, menuText);
+        intent.putExtra(Keys.SORTING_KEY_PAINTINGS, menuText);
 
 
         startActivity(intent);
@@ -38,7 +38,7 @@ public class ListActivity extends AppCompatActivity {
         TextView getInputText = findViewById(R.id.menu_themes);
         String menuText = getInputText.getText().toString();
         Intent intent = new Intent(this, PaintingRecyclerView.class);
-        intent.putExtra(Keys.SORTING_KEY, menuText);
+        intent.putExtra(Keys.SORTING_KEY_PAINTINGS, menuText);
         startActivity(intent);
 
     }
@@ -50,7 +50,7 @@ public class ListActivity extends AppCompatActivity {
         TextView getInputText = findViewById(R.id.menu_locations);
         String menuText = getInputText.getText().toString();
         Intent intent = new Intent(this, PaintingRecyclerView.class);
-        intent.putExtra(Keys.SORTING_KEY, menuText);
+        intent.putExtra(Keys.SORTING_KEY_PAINTINGS, menuText);
         startActivity(intent);
 
     }
@@ -63,7 +63,7 @@ public class ListActivity extends AppCompatActivity {
         TextView getInputText = findViewById(R.id.menu_eras);
         String menuText = getInputText.getText().toString();
         Intent intent = new Intent(this, PaintingRecyclerView.class);
-        intent.putExtra(Keys.SORTING_KEY, menuText);
+        intent.putExtra(Keys.SORTING_KEY_PAINTINGS, menuText);
         startActivity(intent);
 
     }

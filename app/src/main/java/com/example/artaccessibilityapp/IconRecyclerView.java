@@ -25,5 +25,7 @@ public class IconRecyclerView extends AppCompatActivity {
         iconAdapter = new IconAdapter(Keys.paintings, this);
         iconRecyclerView.setAdapter(iconAdapter);
     }
+
+
 }
 

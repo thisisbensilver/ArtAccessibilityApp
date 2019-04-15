@@ -16,8 +16,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         initialData();
+
+        //call initialdata a few times just to have a lot of items
+        initialData();
+        initialData();
+
 
 
         iconRecyclerView = findViewById(R.id.iconRecyclerView);
@@ -26,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
         //iconRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         //iconRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
 
-
-        //iconRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(this, 2, StaggeredGridLayoutManager.VERTICAL));
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL);
         iconRecyclerView.setLayoutManager(staggeredGridLayoutManager);
 

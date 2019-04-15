@@ -12,6 +12,7 @@ public class IconAdapter extends RecyclerView.Adapter<IconViewHolder> {
 
     private List<Painting> icons;
     private Context context;
+    private int index;
 
     public IconAdapter(List<Painting> i, Context c) {
         //this.icons = icons;
@@ -32,12 +33,24 @@ public class IconAdapter extends RecyclerView.Adapter<IconViewHolder> {
         Painting icon = icons.get(position);
         //holder.getIconView().setImageResource(icon.getPhoto());
         holder.getIconView().setImageResource(icon.getPhoto());
+        holder.getIDView().setText("" + icon.getPID());
         // holder.getIconView().setImageResource(icon.getPhoto());
+        //icon.setIvh(holder);
+        index = position;
 
     }
 
     @Override
     public int getItemCount() {
         return icons.size();
+    }
+
+    @Override
+    public String toString() {
+        return "Test # " + index + Keys.paintings.get(index).getPaintingName();
+    }
+
+    public String getMyCustomString() {
+        return "Test # " + index + Keys.paintings.get(index).getPaintingName();
     }
 }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/menu_artists"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@color/purple"
+            android:gravity="center"
+            android:onClick="openRecyclerViewArtist"
+            android:text="@string/sort_by_artist"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/menu_locations"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@color/limegreen"
+            android:gravity="center"
+            android:onClick="openRecyclerViewLocation"
+            android:text="@string/sort_by_location"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/menu_eras"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@color/pink"
+            android:gravity="center"
+            android:onClick="openRecyclerViewEra"
+            android:text="@string/sort_by_era"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/menu_themes"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:onClick="openRecyclerViewTheme"
+            android:text="@string/sort_by_theme"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

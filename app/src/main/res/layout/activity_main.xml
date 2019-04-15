@@ -1,62 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="@color/purple"
-        android:text="@string/sort_by_artist"
-        android:textSize="50dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:onClick="openRecyclerViewArtist"
-        android:id="@+id/menu_artists"
-        />
+        <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOP"/>-->
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="@color/limegreen"
-        android:text="@string/sort_by_location"
-        android:textSize="50dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:onClick="openRecyclerViewLocation"
-        android:id="@+id/menu_locations"
-        />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/iconRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="@color/pink"
-        android:text="@string/sort_by_era"
-        android:textSize="50dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:onClick="openRecyclerViewEra"
-        android:id="@+id/menu_eras"
-        />
+            />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:background="@color/blue"
-        android:text="@string/sort_by_theme"
-        android:textSize="50dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:gravity="center"
-        android:onClick="openRecyclerViewTheme"
-        android:id="@+id/menu_themes"
-        />
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOTTOM"/>-->
 
 
-</LinearLayout>
+    </LinearLayout>
 
-</ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="openList"
+        android:text="Menu" />
+
+</RelativeLayout>

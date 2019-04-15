@@ -17,6 +17,7 @@
             android:layout_height="100dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
             android:layout_marginRight="16dp"
             tools:src="@drawable/untitled_modern_basquiat" />
 

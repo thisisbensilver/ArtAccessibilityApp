@@ -14,8 +14,6 @@ import java.util.Comparator;
 public class PaintingRecyclerView extends AppCompatActivity {
 
 
-    // ArrayList<Location> locations;
-    // ArrayList<Painting> paintings;
     PaintingAdapter paintingAdapter;
 
 
@@ -25,7 +23,7 @@ public class PaintingRecyclerView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_painting_recycler_view);
         Intent intent = getIntent();
-        String sortingTitle = "Sort by " + String.valueOf(intent.getSerializableExtra(Keys.SORTING_KEY_PAINTINGS));
+        String sortingTitle = "Sort by " + intent.getSerializableExtra(Keys.SORTING_KEY_PAINTINGS);
 
         setTitle(sortingTitle);
 

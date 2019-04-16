@@ -1,0 +1,38 @@
+{
+  "logs": [
+    {
+      "outputFile": "/Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+      "map": [
+        {
+          "source": "/Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/res/values-v16/values-v16.xml",
+          "from": {
+            "startLines": "2",
+            "startColumns": "4",
+            "startOffsets": "55",
+            "endColumns": "65",
+            "endOffsets": "116"
+          }
+        },
+        {
+          "source": "/Users/Ben/.gradle/caches/transforms-2/files-2.1/a193c187ae53ae493aadb34b625e856f/res/values-v16/values-v16.xml",
+          "from": {
+            "startLines": "2",
+            "startColumns": "4",
+            "startOffsets": "55",
+            "endLines": "5",
+            "endColumns": "12",
+            "endOffsets": "223"
+          },
+          "to": {
+            "startLines": "3",
+            "startColumns": "4",
+            "startOffsets": "121",
+            "endLines": "6",
+            "endColumns": "12",
+            "endOffsets": "289"
+          }
+        }
+      ]
+    }
+  ]
+}

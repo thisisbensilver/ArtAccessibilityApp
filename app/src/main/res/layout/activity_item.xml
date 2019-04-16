@@ -7,7 +7,7 @@
     tools:context=".ItemActivity">
     <!--
 
-        private String paintingName;
+        private String paint    ingName;
         private int paintingDate;
         private int photo;
         private String aboutPainting;

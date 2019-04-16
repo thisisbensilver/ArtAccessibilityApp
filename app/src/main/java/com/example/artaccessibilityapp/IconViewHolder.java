@@ -26,7 +26,7 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                openItemView(v);
 /*
                 int tSize1 = Keys.paintings.size();
                 ArrayList<Painting> temp = Keys.paintings;
@@ -41,13 +41,14 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
                     Log.i("ok","loc-"+i+" "+b);
                 }
 */
+
+/*
                 int where = -1; //impossible!
                 for (int i = Keys.paintings.size() - 1; i >= 0; i--) {
                     if (idView.getText().equals(("" + Keys.paintings.get(i).getPIDasString()))) {
                         where = i;
                         break;
                     }
-                    //Log.i("ok","loc-"+i+" "+b);
                 }
                 if (where != -1) {
 
@@ -55,7 +56,8 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
                     Toast.makeText(context, "I am " + Keys.paintings.get(where).getPaintingName(), Toast.LENGTH_LONG).show();
 
                     Keys.paintings.get(where).openItem(v);
-                }
+                }*/
+
 
 //String a = this.toString();
 //String b = "";
@@ -93,4 +95,21 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
     }
 
 
+    public void openItemView(View v) {
+
+        int where = -1; //impossible!
+        for (int i = Keys.paintings.size() - 1; i >= 0; i--) {
+            if (idView.getText().equals(("" + Keys.paintings.get(i).getPIDasString()))) {
+                where = i;
+                break;
+            }
+        }
+        if (where != -1) {
+
+
+            Toast.makeText(context, "I am " + Keys.paintings.get(where).getPaintingName(), Toast.LENGTH_LONG).show();
+
+            Keys.paintings.get(where).openItem(v);
+        }
+    }
 }

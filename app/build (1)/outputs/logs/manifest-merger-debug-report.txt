@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a193c187ae53ae493aadb34b625e856f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Ben/.gradle/caches/transforms-2/files-2.1/074b46df889e76f17b994c692e8c7c82/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ff564d8cc83f5ec9bbfa1fadd632b47e/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/58bb7b60f7cfaa110a00cdfdacbf5bdc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/5cf5b5e6bade435fc36c83f81fe70dec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/8775722194f5b90c1b35f556af09922e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/6fd14de94d182b33f0603ca84b04eda7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/9dc4f53ded2d54fa0e802e8bef53c6cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7a4310eedba08c18578fe60468b094cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/384b1d68841458502d6db05bc96d038c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/cdd8c3bf42c7d8ec495d82a8d1f390e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/e96e6f425c056c1e1b7647e7524c866a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/1e8634a3acbb5f28f8b45c5c2ac1c156/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7d782d16fa4ad35f8f02d81ffee259fd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/66ad32727655443a5ae1ed70ed592564/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/d30d2ec5b25b638c973bb354eeba398d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a32edbb9da842e47c143cd903f1c4832/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/664bd072e415733d9eed44fae69ef209/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a253951f7b9b610b3ba0b7186debb5bd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/b5915f9f77cd015d0c9a0b28705ad9f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7112e4b348c17c06efd4ff4b1ffc9bf4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/8aafcb968c2c3ebaf0954438c03ab009/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/91b87dab0dafc274cf6132598bf483d4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/df85ae050aff43766fe8704364417ba8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ef4d1dcfa0c742cdaca99822b4b60f40/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ad74014b32680cec9f32a8399f4391d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/4c029e43ac6c24ff4d5a118738374ff8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/326bc59d7e61c56d51a264e55f6636f9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Ben/.gradle/caches/transforms-2/files-2.1/074b46df889e76f17b994c692e8c7c82/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Ben/.gradle/caches/transforms-2/files-2.1/074b46df889e76f17b994c692e8c7c82/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/664bd072e415733d9eed44fae69ef209/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/664bd072e415733d9eed44fae69ef209/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:11:9-52
+activity#com.example.artaccessibilityapp.MenuActivity
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:12:9-59
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:12:19-47
+activity#com.example.artaccessibilityapp.ItemActivity
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:13:9-50
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:13:19-47
+activity#com.example.artaccessibilityapp.ListActivity
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:14:9-50
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:14:19-47
+activity#com.example.artaccessibilityapp.PaintingRecyclerView
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:15:9-58
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:15:19-55
+activity#com.example.artaccessibilityapp.IconRecyclerView
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:16:9-54
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:16:19-51
+activity#com.example.artaccessibilityapp.MainActivity
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a193c187ae53ae493aadb34b625e856f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a193c187ae53ae493aadb34b625e856f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Ben/.gradle/caches/transforms-2/files-2.1/074b46df889e76f17b994c692e8c7c82/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Ben/.gradle/caches/transforms-2/files-2.1/074b46df889e76f17b994c692e8c7c82/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ff564d8cc83f5ec9bbfa1fadd632b47e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ff564d8cc83f5ec9bbfa1fadd632b47e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/58bb7b60f7cfaa110a00cdfdacbf5bdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/58bb7b60f7cfaa110a00cdfdacbf5bdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/5cf5b5e6bade435fc36c83f81fe70dec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/5cf5b5e6bade435fc36c83f81fe70dec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/8775722194f5b90c1b35f556af09922e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/8775722194f5b90c1b35f556af09922e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/6fd14de94d182b33f0603ca84b04eda7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/6fd14de94d182b33f0603ca84b04eda7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/9dc4f53ded2d54fa0e802e8bef53c6cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/9dc4f53ded2d54fa0e802e8bef53c6cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7a4310eedba08c18578fe60468b094cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7a4310eedba08c18578fe60468b094cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/384b1d68841458502d6db05bc96d038c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/384b1d68841458502d6db05bc96d038c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/cdd8c3bf42c7d8ec495d82a8d1f390e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/cdd8c3bf42c7d8ec495d82a8d1f390e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/e96e6f425c056c1e1b7647e7524c866a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/e96e6f425c056c1e1b7647e7524c866a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/1e8634a3acbb5f28f8b45c5c2ac1c156/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/1e8634a3acbb5f28f8b45c5c2ac1c156/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7d782d16fa4ad35f8f02d81ffee259fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7d782d16fa4ad35f8f02d81ffee259fd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/66ad32727655443a5ae1ed70ed592564/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/66ad32727655443a5ae1ed70ed592564/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/d30d2ec5b25b638c973bb354eeba398d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/d30d2ec5b25b638c973bb354eeba398d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a32edbb9da842e47c143cd903f1c4832/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a32edbb9da842e47c143cd903f1c4832/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/111e114cb649fce54f883cc97aac5287/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/664bd072e415733d9eed44fae69ef209/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/664bd072e415733d9eed44fae69ef209/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a253951f7b9b610b3ba0b7186debb5bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/a253951f7b9b610b3ba0b7186debb5bd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/b5915f9f77cd015d0c9a0b28705ad9f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/b5915f9f77cd015d0c9a0b28705ad9f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7112e4b348c17c06efd4ff4b1ffc9bf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/7112e4b348c17c06efd4ff4b1ffc9bf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/8aafcb968c2c3ebaf0954438c03ab009/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/8aafcb968c2c3ebaf0954438c03ab009/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/91b87dab0dafc274cf6132598bf483d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/91b87dab0dafc274cf6132598bf483d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/df85ae050aff43766fe8704364417ba8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/df85ae050aff43766fe8704364417ba8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ef4d1dcfa0c742cdaca99822b4b60f40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ef4d1dcfa0c742cdaca99822b4b60f40/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ad74014b32680cec9f32a8399f4391d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ad74014b32680cec9f32a8399f4391d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/4c029e43ac6c24ff4d5a118738374ff8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/4c029e43ac6c24ff4d5a118738374ff8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/326bc59d7e61c56d51a264e55f6636f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Ben/.gradle/caches/transforms-2/files-2.1/326bc59d7e61c56d51a264e55f6636f9/AndroidManifest.xml:20:5-44
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/GoogleDrive/My Drive/Code/Java_II/ArtAccessibilityApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ff564d8cc83f5ec9bbfa1fadd632b47e/AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ff564d8cc83f5ec9bbfa1fadd632b47e/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] /Users/Ben/.gradle/caches/transforms-2/files-2.1/ff564d8cc83f5ec9bbfa1fadd632b47e/AndroidManifest.xml:23:9-47

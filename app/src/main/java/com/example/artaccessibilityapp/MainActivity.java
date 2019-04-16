@@ -20,17 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initialData();
 
-        //call initialdata a few times just to have a lot of items
-        initialData();
-        initialData();
 
 
 
         iconRecyclerView = findViewById(R.id.iconRecyclerView);
         iconRecyclerView.setHasFixedSize(true);
-
-        //iconRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        //iconRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));
 
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL);
         iconRecyclerView.setLayoutManager(staggeredGridLayoutManager);
@@ -74,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         //The Last Supper Modern
         Keys.locations.add(new Location("The Metropolitan Museum of Art",
                 "1000 5th Ave", "New York", "NY", 10028, "USA"));
+
 
         Keys.paintings.add(new Painting("The Birth of Venus", "Botticelli", 1485,
                 R.drawable.birth_of_venus_renaissance_botticelli, "This is an interesting Painting",

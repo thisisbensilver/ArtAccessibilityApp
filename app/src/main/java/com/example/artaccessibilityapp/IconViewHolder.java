@@ -47,7 +47,6 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
                         where = i;
                         break;
                     }
-                    //Log.i("ok","loc-"+i+" "+b);
                 }
                 if (where != -1) {
 

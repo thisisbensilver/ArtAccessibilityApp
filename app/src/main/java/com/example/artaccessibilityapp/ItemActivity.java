@@ -18,7 +18,9 @@ public class ItemActivity extends AppCompatActivity {
 
         ImageView icon = findViewById(R.id.item_img);
         TextView info = findViewById(R.id.item_info);
-        info.setText("Hello, I am an intent and I contain info on " + pt.getPaintingName() + " by " + pt.getPaintingArtist() + "\n\nID#_" + pt.getPID());
+        info.setText(pt.getPaintingName() + " by " + pt.getPaintingArtist() +
+                "\n\n" + pt.getAboutPainting() +
+                "\n\n\nID#_" + pt.getPID());
         icon.setImageResource(pt.getPhoto());
 
     }

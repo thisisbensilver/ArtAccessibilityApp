@@ -19,6 +19,7 @@ public class PaintingViewHolder extends RecyclerView.ViewHolder {
     private TextView paintingArtist;
     private TextView paintingEra;
     private Context context;
+    private TextView paintingID;
 
 
     public PaintingViewHolder(View itemView, final Context context) {
@@ -31,15 +32,30 @@ public class PaintingViewHolder extends RecyclerView.ViewHolder {
         paintingDateView = itemView.findViewById(R.id.painting_date);
         paintingArtist = itemView.findViewById(R.id.painting_artist);
         paintingEra = itemView.findViewById(R.id.painting_era);
+        paintingID = itemView.findViewById(R.id.idView);
         this.context = context;
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, paintingNameView.getText().toString(), Toast.LENGTH_SHORT).show();
+               // Toast.makeText(context, paintingNameView.getText().toString(), Toast.LENGTH_SHORT).show();
 //openItemView(v);
 
-            }
+                    int where = -1; //impossible!
+                    for (int i = Keys.paintings.size() - 1; i >= 0; i--) {
+                        if (paintingID.getText().equals(("" + Keys.paintings.get(i).getPIDasString()))) {
+                            where = i;
+                            break;
+                        }
+                    }
+                    if (where != -1) {
+
+
+                        Toast.makeText(context, "I am " + Keys.paintings.get(where).getPaintingName(), Toast.LENGTH_LONG).show();
+
+                        Keys.paintings.get(where).openItem(v);
+                    }
+                }
         });
 
     }
@@ -63,6 +79,8 @@ public class PaintingViewHolder extends RecyclerView.ViewHolder {
     public TextView getPaintingArtistView() {return paintingArtist;}
 
     public TextView getPaintingEraView(){return paintingEra;}
+
+    public TextView getPaintingID(){return paintingID;}
 /*
 
     public void openItemView(View v)

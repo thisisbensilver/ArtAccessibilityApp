@@ -57,10 +57,10 @@ public class MainActivity extends AppCompatActivity {
     private void initialData() {
 
         //Marilyn Monroe, Opus 217, Self Portrait, Starry Night, Untitled
-        Keys.locations.add(new Location("The Museum of Modern Art",
+        Keys.locations.add(new Location("The New York Museum of Modern Art",
                 "11 W 53rd St", "New York", "NY", 10019, "USA"));
         //Birth of Venus
-        Keys.locations.add(new Location("Uffizi Gallery",
+        Keys.locations.add(new Location("The Uffizi Gallery",
                 "Piazzale degli Uffizi, 6", "Firenze", "FI", 50122, "Italy"));
         //The Last Supper
         Keys.locations.add(new Location("Santa Maria delle Grazie",
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 "artist Sandro Botticelli probably made in the mid 1480s. It depicts the goddess " +
                 "Venus arriving at the shore after her birth, when she had emerged from the sea fully-grown " +
                 "(called Venus Anadyomene and often depicted in art). ",
-                "Uffizi Gallery", "Renaissance", "Mythology"));
+                "The Uffizi Gallery", "Renaissance", "Mythology"));
 
         Keys.paintings.add(new Painting("The Last Supper", "Ana Martins", 2013,
                 R.drawable.last_supper_modern_ana_martins, "Christ shares his last supper with his " +
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 " Factory Additions, through which he published a series of screenprint portfolios on his signature subjects. " +
                 "Marilyn Monroe was the first one. He used the same publicity still of the actress that " +
                 "he had previously used for dozens of paintings. ",
-                "The Museum of Modern Art", "Modern", "Portrait"));
+                "The New York Museum of Modern Art", "Modern", "Portrait"));
 
         Keys.paintings.add(new Painting("Opus 217", "Paul Signac", 1890,
                 R.drawable.opus_217_neoimpressionist_paul_signac, "Felix Fénéon was an art dealer, " +
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 "in one hand and a flower in the other. Combining figuration and abstraction, he sets Fénéon's static " +
                 "profile against a swirling background—a kaleidoscopic depiction of optical theorist Charles Henry's " +
                 "recently published color wheel. ",
-                "The Museum of Modern Art", "Neo-Impressionist", "Abstract"));
+                "The New York Museum of Modern Art", "Neo-Impressionist", "Abstract"));
 
         Keys.paintings.add(new Painting("Self Portrait", "Andy Warhol", 1962,
                 R.drawable.self_portrait_modern_warhol, "Self-Portrait is an " +
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 "scheme in which the artist’s vivid red head floats against an empty black background. " +
                 "The artist’s neck, shoulders and torso have been excluded from the portrait, " +
                 "focussing the attention on his face, expression and hair. ",
-                "The Museum of Modern Art", "Modern", "Portrait"));
+                "The New York Museum of Modern Art", "Modern", "Portrait"));
 
         Keys.paintings.add(new Painting("Starry Night", "Vincent Van Gogh", 1889,
                 R.drawable.starry_night_postimpressionist_van_gogh, "The Starry Night is an oil " +
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                 "collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. " +
                 "Bliss Bequest. Regarded as among Van Gogh's finest works, The Starry Night is one of the " +
                 "most recognized paintings in the history of Western culture.",
-                "The Museum of Modern Art", "Post-Impressionist", "Landscape"));
+                "The New York Museum of Modern Art", "Post-Impressionist", "Landscape"));
 
         Keys.paintings.add(new Painting("The Last Supper", "Leonardo DaVinci", 1495,
                 R.drawable.the_last_supper_renaissance_davinci, "The Last Supper (Italian: " +
@@ -137,6 +137,6 @@ public class MainActivity extends AppCompatActivity {
                 "with his knack for creating logo-like repeatable icons that hit your brain all at once, " +
                 "earned as a street artist." +
                 "\nIt is a headbutt of a painting, thunking you to attention.",
-                "The Museum of Modern Art", "Modern", "Abstract"));
+                "The New York Museum of Modern Art", "Modern", "Abstract"));
     }
 }

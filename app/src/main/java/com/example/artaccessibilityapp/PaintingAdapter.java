@@ -35,6 +35,7 @@ public class PaintingAdapter extends RecyclerView.Adapter<PaintingViewHolder> {
         holder.getPaintingDateView().setText(String.valueOf(painting.getPaintingDate()));
         holder.getPaintingArtistView().setText(painting.getPaintingArtist());
         holder.getPaintingEraView().setText(painting.getPaintingEra());
+        holder.getPaintingID().setText(painting.getPIDasString());
     }
 
     @Override

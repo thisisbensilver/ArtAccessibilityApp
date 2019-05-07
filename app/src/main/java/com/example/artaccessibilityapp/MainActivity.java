@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    //eventually firebase
     private void initialData() {
 
         //Marilyn Monroe, Opus 217, Self Portrait, Starry Night, Untitled

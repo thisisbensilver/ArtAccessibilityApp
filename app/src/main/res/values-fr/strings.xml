@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="placeholder" translatable="false">ESPACE RÉSERVÉ</string>
+    <string name="sort_by_artist" translatable="false">Artistes</string>
+    <string name="app_name">App de l\'Accessibilité Artistique</string>
+    <string name="sort_by_era">Les Ères</string>
+    <string name="sort_by_location">Emplacements</string>
+    <string name="sort_by_theme">Des Thèmes</string>
+</resources>

@@ -23,9 +23,9 @@ public class PaintingRecyclerView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_painting_recycler_view);
         Intent intent = getIntent();
-        String sortingTitle = "Sort by " + intent.getSerializableExtra(Keys.SORTING_KEY_PAINTINGS);
+        // String sortingTitle = "Sort by " + intent.getSerializableExtra(Keys.SORTING_KEY_PAINTINGS);
 
-        setTitle(sortingTitle);
+        //setTitle(sortingTitle);
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
@@ -37,7 +37,7 @@ public class PaintingRecyclerView extends AppCompatActivity {
         recyclerView.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_HIGH);
 
         //initialData();
-
+/*
         if (sortingTitle.equals("Artists")){
             Collections.sort(Keys.paintings, new SortPaintingByArtist());
         }
@@ -53,14 +53,14 @@ public class PaintingRecyclerView extends AppCompatActivity {
         else {
             Collections.sort(Keys.paintings, new SortByPaintingName());
         }
-
+*/
         paintingAdapter = new PaintingAdapter(Keys.paintings, this);
         paintingAdapter.setHasStableIds(true);
 
         recyclerView.setAdapter(paintingAdapter);
     }
 
-
+/*
 
     public static Comparator<Painting> SortPaintingByLocation = new Comparator<Painting>() {
 
@@ -71,7 +71,7 @@ public class PaintingRecyclerView extends AppCompatActivity {
             //ascending order
             return paintingLocation1.compareTo(paintingLocation2);
         }
-    };
+    };*/
 }
 
 

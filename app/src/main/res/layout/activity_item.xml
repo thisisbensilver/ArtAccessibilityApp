@@ -49,12 +49,24 @@
         We can break it out later but this is more for the proof of concept
         -->
         <TextView
-            android:id="@+id/item_info"
+            android:id="@+id/item_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PLACEHOLDER"
+            android:text="@string/placeholder"
             android:textAlignment="center"
-            android:textSize="24dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:padding="20dp"
+            android:text="@string/placeholder"
+            android:textSize="16sp"
             android:textStyle="bold"
             android:visibility="visible" />
 

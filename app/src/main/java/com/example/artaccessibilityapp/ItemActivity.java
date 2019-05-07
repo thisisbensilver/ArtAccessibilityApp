@@ -22,11 +22,13 @@ public class ItemActivity extends AppCompatActivity {
         Painting pt = (Painting) iIntent.getSerializableExtra(Keys.SORTING_KEY_ITEM);
 
         ImageView icon = findViewById(R.id.item_img);
-        TextView info = findViewById(R.id.item_info);
-        info.setText(pt.getPaintingName() + " by " + pt.getPaintingArtist() +
-                "\n\n" + pt.getAboutPainting()
+        TextView info = findViewById(R.id.item_title);
+        info.setText(pt.getPaintingName() + " by " + pt.getPaintingArtist());
+
+        info = findViewById(R.id.item_description);
+        info.setText(pt.getAboutPainting());
                 // + "\n\n\nID#_" + pt.getPID()
-        );
+        //);
         icon.setImageResource(pt.getPhoto());
 
         Button button = findViewById(R.id.navButton);

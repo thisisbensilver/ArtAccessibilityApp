@@ -6,8 +6,7 @@ import android.view.View;
 import java.io.Serializable;
 import java.util.Comparator;
 
-public class Painting implements Serializable {
-
+public class Painting implements Serializable, Comparable {
 
     private String paintingName;
     private int paintingDate;
@@ -17,6 +16,9 @@ public class Painting implements Serializable {
     private String paintingEra;
     private String paintingArtist;
     private String paintingTheme;
+    private static int sortCode;
+    private String sortBy;
+
     private static int trackerID = 0; //Used to give unique ID to every painting... even if its sorted.
     private int pID; //this is the unique ID for each painting (see below)
 
@@ -35,10 +37,13 @@ public class Painting implements Serializable {
         this.paintingArtist = artist;
         this.paintingTheme = theme;
 
+
+        //default sortby
+        sortCode = Keys.compare_by_title;
+
         //Take the last ID and add 1 so you can save this new ID
         trackerID++;
         pID = trackerID;
-
     }
 
     public String getPaintingEra() {
@@ -80,6 +85,50 @@ public class Painting implements Serializable {
     public String getPIDasString() {
         return ("" + pID);
     }
+
+    public static void setSortCode(int code) {
+        if (code == Keys.compare_by_artist) {
+            sortCode = code;
+        } else if (code == Keys.compare_by_date) {
+            sortCode = code;
+        } else if (code == Keys.compare_by_era) {
+            sortCode = code;
+        } else if (code == Keys.compare_by_location) {
+            sortCode = code;
+        } else if (code == Keys.compare_by_title) {
+            sortCode = code;
+        } else if (code == Keys.compare_by_theme) {
+            sortCode = code;
+        } else {
+            sortCode = Keys.compare_by_title;
+        }
+        //DEFAULT
+    }
+
+
+    public String sortBy() {
+        if (sortCode == Keys.compare_by_artist) {
+            sortBy = getPaintingArtist();
+        } else if (sortCode == Keys.compare_by_date) {
+            sortBy = Integer.toString(getPaintingDate());
+        } else if (sortCode == Keys.compare_by_era) {
+            sortBy = getPaintingEra();
+        } else if (sortCode == Keys.compare_by_location) {
+            sortBy = getPaintingLocation();
+        } else if (sortCode == Keys.compare_by_title) {
+            sortBy = getPaintingName();
+        } else if (sortCode == Keys.compare_by_theme) {
+            sortBy = getPaintingTheme();
+        } else {
+            sortBy = getPaintingName();
+        }
+
+        return sortBy;
+
+
+    }
+
+
 
     public static Comparator<Painting> SortPaintingByLocation = new Comparator<Painting>() {
 
@@ -134,4 +183,21 @@ public class Painting implements Serializable {
     }*/
 
     }
+
+    @Override
+    public int compareTo(Object o) {
+/*
+        if (sortCode == Keys.compare_by_artist){            sortBy = getPaintingArtist();
+        }else if(sortCode == Keys.compare_by_date) {        sortBy = Integer.toString(getPaintingDate());
+        }else if(sortCode == Keys.compare_by_era) {         sortBy = getPaintingEra();
+        }else if(sortCode == Keys.compare_by_location){     sortBy = getPaintingLocation();
+        }else if(sortCode == Keys.compare_by_title) {       sortBy = getPaintingName();
+        }else if(sortCode == Keys.compare_by_theme) {       sortBy = getPaintingTheme();
+        }else {                                             sortBy = getPaintingName(); } //DEFAULT
+*/
+        //String a = sortBy;
+
+        return this.sortBy().compareTo(((Painting) o).sortBy());
+    }
+
 }

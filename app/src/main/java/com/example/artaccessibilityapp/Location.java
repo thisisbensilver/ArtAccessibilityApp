@@ -8,7 +8,7 @@ public class Location {
     private int zip;
     private String country;
 
-    public Location(String name, String address, String city, String state, int zip, String country){
+    public Location(String name, String address, String city, String state, int zip, String country) {
         this.museumName = name;
         this.address = address;
         this.city = city;

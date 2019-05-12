@@ -6,7 +6,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class IconViewHolder extends RecyclerView.ViewHolder {
 
@@ -27,52 +26,6 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
             @Override
             public void onClick(View v) {
                 openItemView(v);
-/*
-                int tSize1 = Keys.paintings.size();
-                ArrayList<Painting> temp = Keys.paintings;
-                temp.remove(4);
-                int tSize = Keys.paintings.size();
-
-
-                Object x = this;
-                for (int i = Keys.paintings.size() - 1; i>=0 ; i--)
-                {
-                    boolean b = this.equals(Keys.paintings.get(i).getPID());
-                    Log.i("ok","loc-"+i+" "+b);
-                }
-*/
-
-/*
-                int where = -1; //impossible!
-                for (int i = Keys.paintings.size() - 1; i >= 0; i--) {
-                    if (idView.getText().equals(("" + Keys.paintings.get(i).getPIDasString()))) {
-                        where = i;
-                        break;
-                    }
-                }
-                if (where != -1) {
-
-
-                    Toast.makeText(context, "I am " + Keys.paintings.get(where).getPaintingName(), Toast.LENGTH_LONG).show();
-
-                    Keys.paintings.get(where).openItem(v);
-                }*/
-
-
-//String a = this.toString();
-//String b = "";
-
-//String k = iconView.getResources().getResourceName(iconView.getId()).;
-//mainHolder.imageview.getResources().getResourceName(mainHolder.imageview.getId()))
-                //  Toast.makeText(context, "You clicked on " + this.toString(), Toast.LENGTH_SHORT).show();
-
-//String u = "";
-//                 Resources a = iconView.getResources();
-                //String b = "";
-
-                //Toast.makeText(context, cardView., Toast.LENGTH_SHORT).show();
-
-
             }
         });
 
@@ -107,7 +60,7 @@ public class IconViewHolder extends RecyclerView.ViewHolder {
         if (where != -1) {
 
 
-            Toast.makeText(context, "I am " + Keys.paintings.get(where).getPaintingName(), Toast.LENGTH_LONG).show();
+            //  Toast.makeText(context, "I am " + Keys.paintings.get(where).getPaintingName(), Toast.LENGTH_LONG).show();
 
             Keys.paintings.get(where).openItem(v);
         }

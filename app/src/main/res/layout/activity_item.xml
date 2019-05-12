@@ -10,19 +10,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ItemActivity">
-    <!--
-
-        private String paint    ingName;
-        private int paintingDate;
-        private int photo;
-        private String aboutPainting;
-        private String paintingLocation;
-        private String paintingEra;
-        private String paintingArtist;
-        private String paintingTheme;
-
-
-    -->
 
     <ImageView
         android:id="@+id/item_img"

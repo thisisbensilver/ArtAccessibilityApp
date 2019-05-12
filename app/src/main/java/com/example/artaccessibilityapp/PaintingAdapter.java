@@ -27,6 +27,7 @@ public class PaintingAdapter extends RecyclerView.Adapter<PaintingViewHolder> {
 
     @Override
     public void onBindViewHolder(PaintingViewHolder holder, int position) {
+
         Painting painting = paintings.get(position);
         holder.getPaintingNameView().setText(painting.getPaintingName());
         holder.getPaintingAboutView().setText(painting.getAboutPainting());
@@ -41,5 +42,15 @@ public class PaintingAdapter extends RecyclerView.Adapter<PaintingViewHolder> {
     @Override
     public int getItemCount() {
         return paintings.size();
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        return position;
     }
 }

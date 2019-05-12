@@ -12,7 +12,6 @@ import android.widget.TextView;
 public class ItemActivity extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +26,7 @@ public class ItemActivity extends AppCompatActivity {
 
         info = findViewById(R.id.item_description);
         info.setText(pt.getAboutPainting());
-                // + "\n\n\nID#_" + pt.getPID()
-        //);
+
         icon.setImageResource(pt.getPhoto());
 
         Button button = findViewById(R.id.navButton);
@@ -36,37 +34,15 @@ public class ItemActivity extends AppCompatActivity {
 
     }
 
-  public void openMaps(View view){
+    public void openMaps(View view) {
 
         Intent iIntent = getIntent();
-         Painting pt = (Painting) iIntent.getSerializableExtra(Keys.SORTING_KEY_ITEM);
+        Painting pt = (Painting) iIntent.getSerializableExtra(Keys.SORTING_KEY_ITEM);
 
-        Uri gmmIntentUri = Uri.parse("geo:0,0?q="+ pt.getPaintingLocation());
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + pt.getPaintingLocation());
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
     }
 
-
-/*
-    public void openItem(View view, Painting pt) {
-        // Intent intent = new Intent(this, PaintingRecyclerView.class);
-        //startActivity(intent);
-
-        //TextView getInputText = findViewById(R.id.menu_artists);
-        //String menuText = getInputText.getText().toString();
-
-        //ImageView img = findViewById(R.id.item_img);
-        //TextView txt = findViewById(R.id.item_info);
-
-        Intent mIntent = new Intent(this, ItemActivity.class);
-        mIntent.putExtra(Keys.SORTING_KEY_ITEM, pt);
-
-        if (mIntent.resolveActivity(getPackageManager()) != null) {
-            startActivity(mIntent);
-        }
-
-
-    }
-*/
 }

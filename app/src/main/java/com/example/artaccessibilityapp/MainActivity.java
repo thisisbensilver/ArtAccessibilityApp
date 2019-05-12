@@ -19,10 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         initialData();
-        //initialData();
-
-
-
 
         iconRecyclerView = findViewById(R.id.iconRecyclerView);
         iconRecyclerView.setHasFixedSize(true);
@@ -34,24 +30,13 @@ public class MainActivity extends AppCompatActivity {
         iconAdapter = new IconAdapter(Keys.paintings, this);
         iconRecyclerView.setAdapter(iconAdapter);
 
-
-
-
-
     }
 
     public void openList(View view) {
 
-
-        //setContentView(R.layout.activity_list);
-
         Intent mIntent = new Intent(this, ListActivity.class);
 
         startActivity(mIntent);
-
-
-
-
 
     }
 

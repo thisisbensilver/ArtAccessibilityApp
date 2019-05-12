@@ -15,8 +15,6 @@ public class IconAdapter extends RecyclerView.Adapter<IconViewHolder> {
     private int index;
 
     public IconAdapter(List<Painting> i, Context c) {
-        //this.icons = icons;
-        //this.context = context;
         icons = i;
         context = c;
     }

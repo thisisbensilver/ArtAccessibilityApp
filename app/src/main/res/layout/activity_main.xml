@@ -11,11 +11,6 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TOP"/>-->
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/iconRecyclerView"
@@ -25,11 +20,6 @@
 
             />
 
-        <!--
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="BOTTOM"/>-->
 
 
     </LinearLayout>
@@ -41,21 +31,6 @@
         android:layout_alignParentBottom="true"
         android:onClick="openList"
         android:text="Menu" />
-
-    <!--
-        <TextView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-           android:background="@color/colorPrimaryDark"
-            android:text="i"
-            android:textSize="32sp"
-            android:textColor="#ffffff"
-            android:textAlignment="center"
-            android:gravity="center_vertical"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:onClick="openList"
-            />-->
 
 
 </RelativeLayout>
